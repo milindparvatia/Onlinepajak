@@ -48,7 +48,7 @@ The Vendor will be all the third party transaction companies performed are. in t
 column name | comments | 
 --- | --- |
 id | primary key, will be used as vendor_id | 
-vendor_name | primary key, will be used as vendor_name | 
+vendor_name | will be used as vendor_name | 
 
 #### Invoice
 The Invoice will be main table where everything will be combined in one place. I have not specify invoce_id as primary key because I found out that there are few repeating values in data. I have created invoice model as below.
