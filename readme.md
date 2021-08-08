@@ -3,8 +3,9 @@
 ## steps to install this project
 
 1.  clone this repo or download it
-2.  pip install -f requirement.txt
-4. python manage.py migrate
+2.  pip install -r requirements.txt
+3.  cd onlinepajak
+4.  python manage.py migrate
 5.  python manage.py runserver
 
 ## Application design
