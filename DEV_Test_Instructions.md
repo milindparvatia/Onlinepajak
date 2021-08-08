@@ -20,6 +20,7 @@ Each record has been stored following the same structure and here is the data di
 |          Column           |  Type   |                         Description                         |
 +---------------------------+---------+-------------------------------------------------------------+
 | user_id                   | string  | Identifier of user reporting the transaction                |
+
 | company_id                | string  | Identifier of company reporting the transaction             |
 | company_name              | string  | Official name of company reporting the transaction          |
 | npwp                      | string  | Offical tax identifier of company reporting the transaction |
@@ -28,9 +29,12 @@ Each record has been stored following the same structure and here is the data di
 | city                      | string  | City name of company reporting the transaction              |
 | region                    | string  | Region name of company reporting the transaction            |
 | post_code                 | integer | Postal code of company reporting the transaction            |
+
 | invoice_id                | string  | Identifier of transaction                                   |
+
 | vendor_id                 | string  | Identifier of third-party reported in transaction           |
 | vendor_name               | string  | Name of third-party reported in transaction                 |
+
 | commercial_invoice_number | string  | Identifier of commercial invoice                            |
 | transaction_type          | string  | Type of transaction                                         |
 | status_start              | string  | Initial status of transaction                               |
